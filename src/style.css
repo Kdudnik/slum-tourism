@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+  /* color */
+  --color-white: #ffffff;
+  --color-brand-white: #FFF6E8;
+  --color-brand-brown: #4F2000;
+  /* color. */
+
+  /* spacing */
+  --spacing-container: 80rem;
+  /* spacing. */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-white
+  }
+}
+
+@layer components {
+  container {
+    @apply block max-w-container mx-auto px-4;
+  }
+
+  .btn {
+    @apply bg-brand-brown text-brand-white font-medium text-2xl;
+  }
+}
