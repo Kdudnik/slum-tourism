@@ -24,8 +24,8 @@
 | Task/Feature                           | Status         | Expected(or done) Completion Date |
 | -------------------------------------- | -------------- | --------------------------------- |
 | Init the project and add README        | ✅ Completed   | 2025.04.22                        |
-| Add locales support                    | 🕥 In Progress | 2025.04.23                        |
-| Header section                         | 🚧 Not Started | TBD                               |
+| Add locales support                    | ✅ Completed   | 2025.04.22                        |
+| Header section                         | 🕥 In Progress | 2025.04.24                        |
 | Hero section                           | 🚧 Not Started | TBD                               |
 | Gallery section                        | 🚧 Not Started | TBD                               |
 | Video section                          | 🚧 Not Started | TBD                               |
