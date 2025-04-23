@@ -1,0 +1,38 @@
+@import url(./fonts.css);
+@import "tailwindcss";
+
+@theme {
+  /* color */
+  --color-white: #ffffff;
+  --color-brand-white: #FFF6E8;
+  --color-brand-brown: #4F2000;
+  --color-brand-brown-light: #7c3200;
+  /* color. */
+
+  /* spacing */
+  --spacing-container: 80rem;
+  /* spacing. */
+
+  /* font-family */
+  --font-brand: "Inter", "sans-serif";
+  /* font-family. */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-white text-brand-brown;
+    @apply font-brand;
+  }
+}
+
+@layer components {
+  container {
+    @apply block max-w-container mx-auto px-4;
+  }
+
+  .btn {
+    @apply bg-brand-brown text-brand-white font-medium cursor-pointer;
+    @apply py-4 px-6 rounded-lg transition;
+    @apply hover:bg-brand-brown-light;
+  }
+}

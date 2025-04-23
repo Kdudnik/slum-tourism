@@ -4,11 +4,11 @@ import { useI18n } from "vue-i18n";
 
 const { locale, availableLocales } = useI18n();
 const listItems = ref([
-  {message: "Home"},
-  {message: "Background Info"},
-  {message: "Our Tour"},
-  {message: "Reviews"},
-])
+  { message: "Home" },
+  { message: "Background Info" },
+  { message: "Our Tour" },
+  { message: "Reviews" },
+]);
 
 function switchLanguage() {
   const localeIndex = availableLocales.findIndex((el) => el === locale.value);
@@ -22,15 +22,19 @@ function switchLanguage() {
   <header>
     <container class="my-10">
       <nav class="flex justify-between items-center">
-        <div>Site Name</div>
+        <div>
+          <a href="#">Site Name</a>
+        </div>
 
-        <div class="flex">
-          <ul class="flex">
+        <div class="flex gap-12">
+          <ul class="flex gap-12 items-center">
             <li v-for="item in listItems">
-              {{ item.message }}
+              <a href="#" class="transition hover:text-brand-brown-light">{{ item.message }}</a>
             </li>
           </ul>
-          <button type="button" class="btn">{{ $i18n.locale }}</button>
+          <button type="button" class="btn w-20" @click="switchLanguage">
+            {{ $i18n.locale.toUpperCase() }}
+          </button>
         </div>
       </nav>
     </container>
