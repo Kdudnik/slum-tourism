@@ -25,8 +25,8 @@
 | -------------------------------------- | -------------- | --------------------------------- |
 | Init the project and add README        | ✅ Completed   | 2025.04.22                        |
 | Add locales support                    | ✅ Completed   | 2025.04.22                        |
-| Header section                         | 🕥 In Progress | 2025.04.24                        |
-| Hero section                           | 🚧 Not Started | TBD                               |
+| Header section                         | ✅ Completed   | 2025.04.23                        |
+| Hero section                           | 🕥 In Progress | 2025.04.24                        |
 | Gallery section                        | 🚧 Not Started | TBD                               |
 | Video section                          | 🚧 Not Started | TBD                               |
 | Bg Info section                        | 🚧 Not Started | TBD                               |
