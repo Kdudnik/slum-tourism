@@ -7,10 +7,15 @@
   --color-brand-white: #FFF6E8;
   --color-brand-brown: #4F2000;
   --color-brand-brown-light: #7c3200;
+  --color-brand-green: #255B2F;
   /* color. */
 
   /* spacing */
-  --spacing-container: 80rem;
+  --spacing-container: 80rem; /* 1280px */
+  --spacing-93: 23.25rem; /* 372px */
+  --spacing-100: 25rem; /* 400px */
+  --spacing-171: 42.75rem; /* 684px */
+  --spacing-242: 60.5rem; /* 968px */
   /* spacing. */
 
   /* font-family */
@@ -23,6 +28,10 @@
     @apply bg-brand-white text-brand-brown;
     @apply font-brand;
   }
+
+  h1 {
+    @apply font-bold text-7xl;
+  }
 }
 
 @layer components {
@@ -31,7 +40,7 @@
   }
 
   .btn {
-    @apply bg-brand-brown text-brand-white font-medium cursor-pointer;
+    @apply bg-brand-brown text-brand-white font-medium text-2xl cursor-pointer;
     @apply py-4 px-6 rounded-lg transition;
     @apply hover:bg-brand-brown-light;
   }

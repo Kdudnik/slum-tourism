@@ -32,7 +32,7 @@ function switchLanguage() {
               <a href="#" class="transition hover:text-brand-brown-light">{{ item.message }}</a>
             </li>
           </ul>
-          <button type="button" class="btn w-20" @click="switchLanguage">
+          <button type="button" class="btn w-20 text-base" @click="switchLanguage">
             {{ $i18n.locale.toUpperCase() }}
           </button>
         </div>

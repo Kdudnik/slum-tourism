@@ -4,9 +4,9 @@
 
 ## 📚 Quick access
 
-- #### [✨ Design](https://www.figma.com/design/baUhAHnflHWam3mxBj6woA/Untitled?node-id=0-1&p=f&t=1bHb37E7X9DVVDrl-0)
+#### [✨ Design](https://www.figma.com/design/baUhAHnflHWam3mxBj6woA/Untitled?node-id=0-1&p=f&t=1bHb37E7X9DVVDrl-0)
 
-- #### [🌎 Locales](https://1drv.ms/w/c/8eef4860996ce3d8/EfG58aE5mgxHpaEsuFKSrCIBXAHHPBMNlizlh_AR_YzL5w?e=zSDOQh)
+#### [🌎 Locales](https://1drv.ms/w/c/8eef4860996ce3d8/EfG58aE5mgxHpaEsuFKSrCIBXAHHPBMNlizlh_AR_YzL5w?e=zSDOQh)
 
 ---
 
