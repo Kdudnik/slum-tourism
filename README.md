@@ -33,7 +33,8 @@
 | Bg Info section                        | ✅ Completed   | 2025.04.25                        |
 | Links section                          | ✅ Completed   | 2025.04.25                        |
 | Tours section                          | ✅ Completed   | 2025.04.25                        |
-| Details section                        | 🕥 In Progress | 2025.04.25                        |
+| Details section                        | ✅ Completed   | 2025.04.25                        |
+| Activities section                     | 🕥 In Progress | 2025.04.25                        |
 | Tour Map section                       | 🚧 Not Started | TBD                               |
 | FAQ section                            | 🚧 Not Started | TBD                               |
 | Insert locales                         | 🚧 Not Started | TBD                               |

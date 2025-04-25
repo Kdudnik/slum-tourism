@@ -6,6 +6,7 @@ import VideoComponent from "./components/VideoComponent.vue";
 import BgInfoComponent from "./components/BgInfoComponent.vue";
 import LinksComponent from "./components/LinksComponent.vue";
 import ToursComponent from "./components/ToursComponent.vue";
+import DetailsComponent from "./components/DetailsComponent.vue";
 </script>
 
 <template>
@@ -16,4 +17,5 @@ import ToursComponent from "./components/ToursComponent.vue";
   <BgInfoComponent />
   <LinksComponent />
   <ToursComponent />
+  <DetailsComponent />
 </template>

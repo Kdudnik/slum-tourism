@@ -11,7 +11,7 @@
             Kathpulti Colony (Indien)
           </h3>
         </div>
-        <img src="/tours/tours.png" alt="" class="shadow-video rounded-xl" />
+        <img src="/tours/tours.png" alt="" class="shadow-brand rounded-xl" />
         <p class="text-2xl">
           Unsere Kathpulti-Kolonie-Tour umfasst Abholung und Rücktransport von
           Hotels, Häfen und Flughäfen. Sie werden von Ihrem Standort abgeholt,

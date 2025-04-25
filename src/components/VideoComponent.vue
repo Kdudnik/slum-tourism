@@ -19,7 +19,7 @@
               <img
                 src="/video/video-1.png"
                 alt=""
-                class="duration-300 rounded-4xl shadow-video"
+                class="duration-300 rounded-4xl shadow-brand"
               />
             </a>
             <div
@@ -34,7 +34,7 @@
               <img
                 src="/video/video-2.png"
                 alt=""
-                class="duration-300 group-hover:scale-105 rounded-4xl shadow-video"
+                class="duration-300 group-hover:scale-105 rounded-4xl shadow-brand"
               />
             </a>
             <div
