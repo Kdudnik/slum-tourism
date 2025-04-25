@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="mt-20">
+  <section class="mt-20 overflow-hidden">
     <container>
       <h1>Slum Tourismus</h1>
       <button type="button" class="btn w-36 mt-20">Button</button>

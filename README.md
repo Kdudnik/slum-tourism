@@ -28,8 +28,8 @@
 | Header section                         | ✅ Completed   | 2025.04.23                        |
 | Hero section                           | ✅ Completed   | 2025.04.23                        |
 | Sticky header                          | ✅ Completed   | 2025.04.23                        |
-| Gallery section                        | 🕥 In Progress | 2025.04.24                        |
-| Video section                          | 🚧 Not Started | TBD                               |
+| Gallery section                        | ✅ Completed   | 2025.04.25                        |
+| Video section                          | 🕥 In Progress | 2025.04.25                        |
 | Bg Info section                        | 🚧 Not Started | TBD                               |
 | Tours section                          | 🚧 Not Started | TBD                               |
 | Details section                        | 🚧 Not Started | TBD                               |
