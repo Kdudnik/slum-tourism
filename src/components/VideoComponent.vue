@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="mt-25">
+  <section class="mt-25 overflow-hidden">
     <container>
       <div class="flex flex-col gap-32">
         <div class="flex items-center gap-4">

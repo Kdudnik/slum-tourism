@@ -7,6 +7,7 @@ import BgInfoComponent from "./components/BgInfoComponent.vue";
 import LinksComponent from "./components/LinksComponent.vue";
 import ToursComponent from "./components/ToursComponent.vue";
 import DetailsComponent from "./components/DetailsComponent.vue";
+import TourmapComponent from "./components/TourmapComponent.vue";
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import DetailsComponent from "./components/DetailsComponent.vue";
   <LinksComponent />
   <ToursComponent />
   <DetailsComponent />
+  <TourmapComponent />
 </template>
