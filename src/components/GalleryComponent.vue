@@ -22,7 +22,7 @@ const galleryItems = ref([
 </script>
 
 <template>
-  <section class="pt-25">
+  <section class="js-intersect pt-25">
     <container>
       <div class="flex gap-7">
         <GalleryBlockComponent :data="galleryItems" />

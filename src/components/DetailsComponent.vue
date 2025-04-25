@@ -4,7 +4,7 @@
   <section class="pt-25">
     <container>
       <div class="flex flex-col gap-8">
-        <div class="flex flex-col gap-2 text-2xl">
+        <div class="js-intersect flex flex-col gap-2 text-2xl">
           <h5 class="font-bold">Warum uns wählen?</h5>
           <ul>
             <li>
@@ -22,12 +22,12 @@
           </ul>
         </div>
         <div
-          class="title-bg-green"
+          class="js-intersect title-bg-green"
         >
           Tourdetails
         </div>
-        <h6 class="text-2xl font-bold">Was können Sie erwarten?</h6>
-        <ol class="text-2xl list-disc ml-6">
+        <h6 class="js-intersect text-2xl font-bold">Was können Sie erwarten?</h6>
+        <ol class="js-intersect text-2xl list-disc ml-6">
           <li>
             <span class="font-bold">Standort:</span>
             Anfang - Delhi (Indien); Ende - Delhi (Indien)
@@ -45,11 +45,11 @@
           </li>
           <li><span class="font-bold">Aktivitäten:</span></li>
         </ol>
-        <div class="flex flex-col gap-16">
+        <div class="js-intersect flex flex-col gap-16">
           <div class="flex flex-col gap-8">
             <h5 class="font-bold text-4xl">Morgens</h5>
-            <div class="flex gap-10">
-              <div class="flex flex-col gap-4 basis-1/2 shrink text-2xl">
+            <div class="flex flex-wrap lg:flex-nowrap gap-10">
+              <div class="flex flex-col basis-full gap-4 text-2xl">
                 <p>
                   <span class="font-bold">Kathputli Colony:</span>
                   Ein bekanntes Wohngebiet, das als "Künstlerdorf" gilt, wo
@@ -74,15 +74,15 @@
               <img
                 src="/details/details-1.png"
                 alt=""
-                class="basis-1/2 shrink shadow-brand rounded-xl"
+                class="basis-full shadow-brand rounded-xl"
               />
             </div>
           </div>
           <div class="flex flex-col gap-8">
             <h5 class="font-bold text-4xl">Nachmittags</h5>
-            <div class="flex gap-10">
+            <div class="flex flex-wrap lg:flex-nowrap gap-10">
               <div
-                class="flex flex-col gap-4 order-2 basis-1/2 shrink text-2xl"
+                class="flex flex-col gap-4 order-2 text-2xl"
               >
                 <ol class="list-disc ml-6">
                   <li>
@@ -103,7 +103,7 @@
               <img
                 src="/details/details-2.png"
                 alt=""
-                class="basis-1/2 shrink rounded-xl shadow-brand"
+                class="basis-full rounded-xl shadow-brand"
               />
             </div>
           </div>

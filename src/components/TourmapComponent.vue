@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="pt-25">
+  <section class="js-intersect pt-25">
     <container>
       <div
         class="title-bg-green"

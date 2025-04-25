@@ -4,7 +4,7 @@
   <section class="pt-25 overflow-hidden">
     <container>
       <div class="flex flex-col gap-32">
-        <div class="flex items-center gap-4">
+        <div class="js-intersect flex items-center gap-4">
           <h3 class="font-bold text-5xl grow shrink-0">Unsere Vision</h3>
           <p class="text-2xl basis-3/5">
             Wir möchten Touristen nicht nur Eindrücke vermitteln, sondern echtes
@@ -13,7 +13,7 @@
             Leben in Slums - respektvoll, authentisch und auf Augenhöhe.
           </p>
         </div>
-        <div class="flex gap-36 justify-between">
+        <div class="js-intersect flex gap-36 justify-between">
           <div class="relative group">
             <a href="#">
               <img
@@ -45,7 +45,7 @@
             ></div>
           </div>
         </div>
-        <div class="flex items-center gap-4">
+        <div class="js-intersect flex items-center gap-4">
           <h3 class="font-bold text-5xl grow shrink-0">Unsere Mission</h3>
           <p class="text-2xl basis-3/5">
             Wir setzen uns für verantwortungsbewussten Tourismus ein: Statt

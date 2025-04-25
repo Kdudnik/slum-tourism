@@ -1,14 +1,14 @@
 <script setup></script>
 
 <template>
-  <section class="pt-32">
+  <section class="js-intersect pt-32">
     <container>
       <div class="flex gap-12">
         <div class="shrink grow-0 flex items-center text-2xl">
           &rarr; Für weiterführende Infos empfehlen wir unsere Links zu
           YouTube-Videos und Artikeln über Slum-Tourismus am Seitenende.
         </div>
-        <div class="basis-3/5 shrink-0 flex justify-between">
+        <div class="basis-3/5 shrink-0 flex gap-8 justify-between">
           <div class="flex flex-col gap-4">
             <div class="relative">
               <img src="/links/links-1.png" alt="" />

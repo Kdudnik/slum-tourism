@@ -6,7 +6,7 @@
       <div class="title-bg-green">Hilfen & FAQ</div>
       <div class="grid grid-cols-4 grid-rows-2 gap-8 mt-8">
         <div
-          class="col-span-1 row-span-2 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
+          class="js-intersect col-span-1 row-span-2 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
         >
           <h6 class="font-medium text-2xl">
             “Was kann ich in der Kathpulti Kolonie besichtigen?”
@@ -22,7 +22,7 @@
           </p>
         </div>
         <div
-          class="col-span-1 row-span-2 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
+          class="js-intersect col-span-1 row-span-2 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
         >
           <h6 class="font-medium text-2xl">
             “Ist die Kathpulti Kolonie sicher?”
@@ -38,7 +38,7 @@
           </p>
         </div>
         <div
-          class="col-span-2 row-span-1 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
+          class="js-intersect col-span-2 row-span-1 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
         >
           <h6 class="font-medium text-2xl">
             “Kann ich während der Tour etwas kaufen?”
@@ -53,7 +53,7 @@
           </p>
         </div>
         <div
-          class="col-span-2 row-span-1 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
+          class="js-intersect col-span-2 row-span-1 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
         >
           <h6 class="font-medium text-2xl">
             “Was ist im Tourpreis enthalten??”
@@ -66,7 +66,7 @@
           </p>
         </div>
         <div
-          class="col-span-4 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
+          class="js-intersect col-span-4 flex flex-col justify-center gap-4 bg-white rounded-4xl shadow-brand p-8"
         >
           <h6 class="font-medium text-2xl">
             “Welche Gegenstände sind auf der Tour nicht erlaubt?”

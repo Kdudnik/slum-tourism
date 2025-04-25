@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="pt-25" id="tour">
+  <section class="js-intersect pt-25" id="tour">
     <container>
       <div class="flex flex-col gap-8">
         <div class="flex flex-col gap-2">

@@ -17,3 +17,27 @@ const locales = createI18n({
 });
 
 createApp(App).use(locales).mount('#app')
+
+// Sections animation
+
+const targets = document.querySelectorAll(".js-intersect");
+
+const callback = function (entries) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate-show-section");
+    }
+  });
+};
+
+const init = (callback) => {
+  const observer = new IntersectionObserver(callback);
+  targets.forEach((target) => {
+    target.classList.add("opacity-0");
+    observer.observe(target);
+  });
+};
+
+init(callback);
+
+// Sections animation.

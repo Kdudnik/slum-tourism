@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="pt-25" id="bgInfo">
+  <section class="js-intersect pt-25" id="bgInfo">
     <container>
       <h2 class="font-bold text-5xl">Background Info</h2>
       <div class="flex gap-11 mt-16">
