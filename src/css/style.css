@@ -4,10 +4,10 @@
 @theme {
   /* color */
   --color-white: #ffffff;
-  --color-brand-white: #FFF6E8;
-  --color-brand-brown: #4F2000;
+  --color-brand-white: #fff6e8;
+  --color-brand-brown: #4f2000;
   --color-brand-brown-light: #8b3800;
-  --color-brand-green: #255B2F;
+  --color-brand-green: #255b2f;
   /* color. */
 
   /* spacing */
@@ -47,5 +47,11 @@
     @apply bg-brand-brown text-brand-white font-medium text-2xl cursor-pointer;
     @apply py-4 px-6 rounded-lg transition;
     @apply hover:bg-brand-brown-light;
+  }
+
+  .title-bg-green {
+    @apply text-white flex bg-brand-green;
+    @apply text-5xl font-bold;
+    @apply py-2 px-4 rounded-3xl rounded-tl-none;
   }
 }

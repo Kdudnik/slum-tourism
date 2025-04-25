@@ -4,7 +4,7 @@
   <section class="mt-25">
     <container>
       <div
-        class="text-white flex bg-brand-green text-5xl font-bold py-2 px-4 rounded-3xl rounded-tl-none"
+        class="title-bg-green"
       >
         Tourkarte
       </div>
