@@ -37,9 +37,9 @@
 | Activities section                     | ✅ Completed   | 2025.04.25                        |
 | Tour Map section                       | ✅ Completed   | 2025.04.25                        |
 | FAQ section                            | ✅ Completed   | 2025.04.25                        |
-| Add anchors                            | 🕥 In Progress | 2025.04.25                        |
+| Add anchors                            | ✅ Completed   | 2025.04.25                        |
+| Fix bugs on different breakpoints      | 🕥 In Progress | 2025.04.25                        |
 | Reviews section                        | 🚧 Not Started | TBD                               |
 | Insert locales                         | 🚧 Not Started | TBD                               |
 | Add animations                         | 🚧 Not Started | TBD                               |
-| Fix bugs on different breakpoints      | 🚧 Not Started | TBD                               |
 

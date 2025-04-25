@@ -22,7 +22,7 @@ const galleryItems = ref([
 </script>
 
 <template>
-  <section class="mt-25">
+  <section class="pt-25">
     <container>
       <div class="flex gap-7">
         <GalleryBlockComponent :data="galleryItems" />

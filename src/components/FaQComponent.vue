@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="mt-25">
+  <section class="pt-25">
     <container>
       <div class="title-bg-green">Hilfen & FAQ</div>
       <div class="grid grid-cols-4 grid-rows-2 gap-8 mt-8">

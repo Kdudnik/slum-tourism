@@ -4,10 +4,10 @@ import { useI18n } from "vue-i18n";
 
 const { locale, availableLocales } = useI18n();
 const listItems = ref([
-  { message: "Home" },
-  { message: "Background Info" },
-  { message: "Our Tour" },
-  { message: "Reviews" },
+  { message: "Home", anchor: "#hero" },
+  { message: "Background Info", anchor: "#bgInfo" },
+  { message: "Our Tour", anchor: "#tour" },
+  { message: "Reviews", anchor: "#" },
 ]);
 
 // Switch language
@@ -49,7 +49,7 @@ window.addEventListener("scroll", () => {
         <div class="flex gap-12">
           <ul class="flex gap-12 items-center">
             <li v-for="item in listItems">
-              <a href="#" class="transition hover:text-brand-brown-light">{{
+              <a :href="item.anchor" class="transition hover:text-brand-brown-light">{{
                 item.message
               }}</a>
             </li>

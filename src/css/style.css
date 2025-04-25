@@ -28,6 +28,10 @@
 }
 
 @layer base {
+  :root {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-brand-white text-brand-brown;
     @apply font-brand;

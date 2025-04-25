@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="mt-32">
+  <section class="pt-32">
     <container>
       <div class="flex gap-12">
         <div class="shrink grow-0 flex items-center text-2xl">

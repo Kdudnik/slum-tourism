@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="mt-25">
+  <section class="pt-25">
     <container>
       <div class="flex flex-col gap-8">
         <div class="flex flex-col gap-2 text-2xl">
