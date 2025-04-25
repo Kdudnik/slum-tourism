@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import './css/style.css'
+import "@splidejs/splide/css/core";
 import App from './App.vue'
+import { Splide } from "@splidejs/splide";
 
 import en from "./locales/en.json";
 import de from "./locales/de.json";
@@ -41,3 +43,17 @@ const init = (callback) => {
 init(callback);
 
 // Sections animation.
+
+// Splide
+
+new Splide( '.splide', {
+  type: "fade",
+  arrows: true,
+  autoWidth: false,
+  autoHeight: false,
+  perPage: 1,
+  rewind: true,
+  pagination: false
+} ).mount();
+
+// Splide.

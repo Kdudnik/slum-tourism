@@ -40,6 +40,6 @@
 | Add anchors                            | ✅ Completed   | 2025.04.25                        |
 | Add animations                         | ✅ Completed   | 2025.04.25                        |
 | Fix bugs on different breakpoints      | ✅ Completed   | 2025.04.25                        |
-| Reviews section                        | 🚧 Not Started | TBD                               |
-| Insert locales                         | 🚧 Not Started | TBD                               |
+| Reviews section                        | ✅ Completed   | 2025.04.25                        |
+| Insert locales                         | 🕥 In Progress | TBD (prep +waiting for locales)   |
 
