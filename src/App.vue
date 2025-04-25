@@ -5,6 +5,7 @@ import GalleryComponent from "./components/GalleryComponent.vue";
 import VideoComponent from "./components/VideoComponent.vue";
 import BgInfoComponent from "./components/BgInfoComponent.vue";
 import LinksComponent from "./components/LinksComponent.vue";
+import ToursComponent from "./components/ToursComponent.vue";
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import LinksComponent from "./components/LinksComponent.vue";
   <VideoComponent />
   <BgInfoComponent />
   <LinksComponent />
+  <ToursComponent />
 </template>
