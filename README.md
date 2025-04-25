@@ -31,8 +31,8 @@
 | Gallery section                        | ✅ Completed   | 2025.04.25                        |
 | Video section                          | ✅ Completed   | 2025.04.25                        |
 | Bg Info section                        | ✅ Completed   | 2025.04.25                        |
-| Links section                          | 🕥 In Progress | 2025.04.25                        |
-| Tours section                          | 🚧 Not Started | TBD                               |
+| Links section                          | ✅ Completed   | 2025.04.25                        |
+| Tours section                          | 🕥 In Progress | 2025.04.25                        |
 | Details section                        | 🚧 Not Started | TBD                               |
 | Tour Map section                       | 🚧 Not Started | TBD                               |
 | FAQ section                            | 🚧 Not Started | TBD                               |
