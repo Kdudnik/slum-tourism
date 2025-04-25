@@ -21,6 +21,10 @@
   /* font-family */
   --font-brand: "Inter", "sans-serif";
   /* font-family. */
+
+  /* box-shadow */
+  --shadow-video: 0 0 15px 5px rgba(0, 0, 0, 0.25);
+  /* box-shadow. */
 }
 
 @layer base {

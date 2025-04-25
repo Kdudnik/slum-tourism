@@ -30,7 +30,8 @@
 | Sticky header                          | ✅ Completed   | 2025.04.23                        |
 | Gallery section                        | ✅ Completed   | 2025.04.25                        |
 | Video section                          | ✅ Completed   | 2025.04.25                        |
-| Bg Info section                        | 🕥 In Progress | 2025.04.25                        |
+| Bg Info section                        | ✅ Completed   | 2025.04.25                        |
+| Links section                          | 🕥 In Progress | 2025.04.25                        |
 | Tours section                          | 🚧 Not Started | TBD                               |
 | Details section                        | 🚧 Not Started | TBD                               |
 | Tour Map section                       | 🚧 Not Started | TBD                               |
