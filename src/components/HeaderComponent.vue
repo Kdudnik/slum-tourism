@@ -43,15 +43,20 @@ window.addEventListener("scroll", () => {
     <container class="py-4">
       <nav class="flex justify-between items-center">
         <div>
-          <a href="#">Site Name</a>
+          <a href="#" class="group flex gap-1 items-center">
+            <img src="/logo.png" class="w-16 h-16 hover:scale-110 transition" alt="Logo" />
+            <span class="font-bold text-2xl">BsB</span>
+          </a>
         </div>
 
         <div class="flex gap-12">
           <ul class="flex gap-12 items-center">
             <li v-for="item in listItems">
-              <a :href="item.anchor" class="transition hover:text-brand-brown-light">{{
-                item.message
-              }}</a>
+              <a
+                :href="item.anchor"
+                class="transition hover:text-brand-brown-light"
+                >{{ item.message }}</a
+              >
             </li>
           </ul>
           <button

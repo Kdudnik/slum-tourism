@@ -3,10 +3,11 @@
 <template>
   <section class="pt-20 overflow-hidden" id="hero">
     <container>
-      <h1>Slum Tourismus</h1>
-      <button type="button" class="btn w-36 mt-20">Button</button>
+      <h1 class="font-bold text-7xl">{{ $t("hero.title") }}</h1>
+      <h2 class="font-bold italic text-2xl mt-2">Begegnung statt Beobachtung</h2>
+      <button type="button" class="btn mt-20">Slumtour buchen</button>
       <div class="mt-20 flex flex-col gap-5">
-        <div class="text-3xl">Wie sieht es aus?</div>
+        <div class="text-3xl">{{ $t("hero.text") }}</div>
         <div class="relative">
           <img src="/hero/hero.png" alt="" />
           <div
@@ -18,7 +19,7 @@
         </div>
         <div class="flex justify-end font-medium text-2xl">
           <div class="flex flex-col">
-            <span>Photo: Osman Mohamed Osman/</span>
+            <span>{{ $t("hero.photo") }} Osman Mohamed Osman/</span>
             <span>Al Jazeera</span>
           </div>
         </div>

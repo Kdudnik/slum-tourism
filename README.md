@@ -42,4 +42,3 @@
 | Fix bugs on different breakpoints      | ✅ Completed   | 2025.04.25                        |
 | Reviews section                        | ✅ Completed   | 2025.04.25                        |
 | Insert locales                         | 🕥 In Progress | TBD (prep +waiting for locales)   |
-

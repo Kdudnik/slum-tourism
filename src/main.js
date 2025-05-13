@@ -53,7 +53,8 @@ new Splide( '.splide', {
   autoHeight: false,
   perPage: 1,
   rewind: true,
-  pagination: false
+  pagination: false,
+  drag: false
 } ).mount();
 
 // Splide.

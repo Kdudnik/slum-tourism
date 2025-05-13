@@ -1,56 +1,37 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const reviews = ref([
+  '"Die Tour war ein absolutes Highlight. Wir hatten viele Wünsche, das echte Mumbai kennenzulernen - und genau das haben wir bekommen. Es gab unglaublich viel zu sehen und zu erleben. Ohne zu viel zu verraten: Wer einen authentischen Einblick in das wahre Indien sucht, sollte diese Tour unbedingt buchen"',
+  '"Fantastisch! Die Tour war hervorragend und bot einen authentischen Einblick in das echte Mumbai. Sehr empfehlenswert - informativ, engagiert und unvergesslich!"',
+  '"Tolle zweitägige Tour durch Mumbai - informativ, flexibel und authentisch. Besonders der Besuch in Dharavi war beeindruckend. Sehr empfehlenswert für alle, die das echte Mumbai erleben möchten."',
+  '"Ich habe bereits mehrere Touren gemacht: alle waren sehr eindrucksvoll. Es wurden besondere, nicht-touristische Orte gezeigt, die man alleine kaum entdecken würde. Die Stadt wurde auf eine ganz besondere, authentische Weise vermittelt. Ich freue mich schon auf weitere Erlebnisse und empfehle solche Touren jedem, der Mumbai wirklich erleben möchte."',
+  '"Eine eindrucksvolle und bereichernde Tour. Besonders schön war der respektvolle Austausch mit den Einheimischen – ein authentischer Einblick, der lange in Erinnerung bleibt."',
+  '"Ein unglaublich aufschlussreicher Tour, der mir einen echten Einblick in das Leben der Slums gegeben hat. Besonders wertvoll war die Möglichkeit, mit den Einheimischen in Kontakt zu treten und ihre Geschichten zu hören. Es war eine authentische Erfahrung, die ich jedem empfehlen würde, der mehr über die wahre Seite der Stadt erfahren möchte."',
+]);
+</script>
 
 <template>
   <section class="mt-25">
     <container>
       <div class="flex flex-wrap justify-center gap-8">
-        <h2 class="text-5xl font-bold basis-full text-center">What Our Customers Say</h2>
-        <div class="bg-white flex items-center shadow-brand basis-1/2 rounded-2xl h-100 p-6">
-          <div class="flex flex-col justify-center gap-6">
+        <h2 class="text-5xl font-bold basis-full text-center">
+          Was unsere Kunden sagen
+        </h2>
+        <div
+          class="bg-white flex items-center shadow-brand basis-1/2 rounded-2xl h-100 p-6"
+        >
+          <div class="flex flex-col gap-6">
             <div class="splide">
               <div class="splide__track">
                 <ul class="splide__list">
-                  <li class="splide__slide">
-                    <div class="flex flex-col items-center gap-6">
-                      <p class="italic">
-                        "I’m beyond impressed with the level of care and
-                        precision! My nails have never looked this perfect, and
-                        the whole experience was so relaxing. From the moment I
-                        walked in, I felt welcomed and pampered. The attention
-                        to detail is outstanding, and I can’t wait for my next
-                        appointment!"
-                      </p>
-                      <div class="font-medium">Hanna May</div>
-                    </div>
-                  </li>
-                  <li class="splide__slide">
-                    <div class="flex flex-col items-center gap-6">
-                      <p class="italic">
-                        "This is hands down the best nail salon I’ve ever been
-                        to! The staff is incredibly talented, and they truly
-                        listen to what you want. My manicure lasted weeks
-                        without chipping, and the nail art was absolutely
-                        flawless. I’m so happy I found this place and will
-                        definitely be coming back!"
-                      </p>
-                      <div class="font-medium">Jenna Black</div>
-                    </div>
-                  </li>
-                  <li class="splide__slide">
-                    <div class="flex flex-col items-center gap-6">
-                      <p class="italic">
-                        "Such an amazing experience! The salon has a beautiful,
-                        calming atmosphere, and the nail technicians are
-                        artists. Every design is done with such precision, and
-                        the quality of products they use makes a huge
-                        difference. My nails have never been healthier or looked
-                        better!"
-                      </p>
-                      <div class="font-medium">Jamie Lau</div>
-                    </div>
+                  <li v-for="item in reviews" class="splide__slide text-lg">
+                        {{ item }}
                   </li>
                 </ul>
-                <div class="splide__arrows splide__arrows--ltr flex justify-center gap-6 pt-6">
+                <div
+                  class="splide__arrows splide__arrows--ltr flex justify-center gap-6 pt-6"
+                >
                   <button
                     class="splide__arrow splide__arrow--prev hover:bg-brand-brown-light bg-brand-brown flex h-10 w-10 cursor-pointer items-center justify-center rounded-full transition"
                     type="button"

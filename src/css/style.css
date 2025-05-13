@@ -44,10 +44,6 @@
     @apply bg-brand-white text-brand-brown;
     @apply font-brand mb-25;
   }
-
-  h1 {
-    @apply font-bold text-7xl;
-  }
 }
 
 @layer components {

@@ -5,12 +5,11 @@
     <container>
       <div class="flex flex-col gap-32">
         <div class="js-intersect flex items-center gap-4">
-          <h3 class="font-bold text-5xl grow shrink-0">Unsere Vision</h3>
+          <h3 class="font-bold text-5xl grow shrink-0">
+            {{ $t("video.vision.title") }}
+          </h3>
           <p class="text-2xl basis-3/5">
-            Wir möchten Touristen nicht nur Eindrücke vermitteln, sondern echtes
-            Verständnis und Austausch ermöglichen. Durch aktive Teilnahme an
-            lokalen Aktivitäten gewinnen Besucher neue Perspektiven auf das
-            Leben in Slums - respektvoll, authentisch und auf Augenhöhe.
+            {{ $t("video.vision.text") }}
           </p>
         </div>
         <div class="js-intersect flex gap-36 justify-between">
@@ -46,12 +45,11 @@
           </div>
         </div>
         <div class="js-intersect flex items-center gap-4">
-          <h3 class="font-bold text-5xl grow shrink-0">Unsere Mission</h3>
+          <h3 class="font-bold text-5xl grow shrink-0">
+            {{ $t("video.mission.title") }}
+          </h3>
           <p class="text-2xl basis-3/5">
-            Wir setzen uns für verantwortungsbewussten Tourismus ein: Statt
-            passivem Zuschauen fördern wir Begegnung, Zusammenarbeit mit
-            Einheimischen und interkulturellen Dialog. So entsteht ein
-            bereicherndes Erlebnis für beide Seiten.
+            {{ $t("video.mission.text") }}
           </p>
         </div>
       </div>

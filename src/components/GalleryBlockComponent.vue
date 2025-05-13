@@ -23,7 +23,7 @@ console.log(data);
         :href="item.link"
         target="_blank"
         class="hover:text-brand-brown-light transition"
-        >{{ item.text }}</a
+        >{{ $t("gallery.photo") }} {{ item.text }}</a
       >
     </div>
   </div>

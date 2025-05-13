@@ -1,3 +1,23 @@
 {
-  "test": "Hallo Welt!"
+  "hero": {
+    "title": "Slum Tourismus",
+    "text": "Wie sieht es aus?",
+    "photo": "Foto:"
+  },
+  "gallery": {
+    "photo": "Foto:"
+  },
+  "video": {
+    "vision": {
+      "title": "Unsere Vision",
+      "text": "Wir möchten Touristen nicht nur Eindrücke vermitteln, sondern echtes Verständnis und Austausch ermöglichen. Durch aktive Teilnahme an lokalen Aktivitäten gewinnen Besucher neue Perspektiven auf das Leben in Slums - respektvoll, authentisch und auf Augenhöhe."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "text": "Wir setzen uns für verantwortungsbewussten Tourismus ein: Statt passivem Zuschauen fördern wir Begegnung, Zusammenarbeit mit Einheimischen und interkulturellen Dialog. So entsteht ein bereicherndes Erlebnis für beide Seiten."
+    }
+  },
+  "bgInfo": {
+    
+  }
 }
