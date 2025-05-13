@@ -2,10 +2,10 @@
 import { ref } from "vue";
 
 const reviews = ref([
-  '"Die Tour war ein absolutes Highlight. Wir hatten viele Wünsche, das echte Mumbai kennenzulernen - und genau das haben wir bekommen. Es gab unglaublich viel zu sehen und zu erleben. Ohne zu viel zu verraten: Wer einen authentischen Einblick in das wahre Indien sucht, sollte diese Tour unbedingt buchen"',
-  '"Fantastisch! Die Tour war hervorragend und bot einen authentischen Einblick in das echte Mumbai. Sehr empfehlenswert - informativ, engagiert und unvergesslich!"',
-  '"Tolle zweitägige Tour durch Mumbai - informativ, flexibel und authentisch. Besonders der Besuch in Dharavi war beeindruckend. Sehr empfehlenswert für alle, die das echte Mumbai erleben möchten."',
-  '"Ich habe bereits mehrere Touren gemacht: alle waren sehr eindrucksvoll. Es wurden besondere, nicht-touristische Orte gezeigt, die man alleine kaum entdecken würde. Die Stadt wurde auf eine ganz besondere, authentische Weise vermittelt. Ich freue mich schon auf weitere Erlebnisse und empfehle solche Touren jedem, der Mumbai wirklich erleben möchte."',
+  '"Die Tour war ein absolutes Highlight. Wir hatten viele Wünsche, das echte Delhi kennenzulernen - und genau das haben wir bekommen. Es gab unglaublich viel zu sehen und zu erleben. Ohne zu viel zu verraten: Wer einen authentischen Einblick in das wahre Indien sucht, sollte diese Tour unbedingt buchen"',
+  '"Fantastisch! Die Tour war hervorragend und bot einen authentischen Einblick in das echte Delhi. Sehr empfehlenswert - informativ, engagiert und unvergesslich!"',
+  '"Tolle zweitägige Tour durch Delhi - informativ, flexibel und authentisch. Sehr empfehlenswert für alle, die das echte Delhi erleben möchten."',
+  '"Ich habe bereits mehrere Touren gemacht: alle waren sehr eindrucksvoll. Es wurden besondere, nicht-touristische Orte gezeigt, die man alleine kaum entdecken würde. Die Stadt wurde auf eine ganz besondere, authentische Weise vermittelt. Ich freue mich schon auf weitere Erlebnisse und empfehle solche Touren jedem, der Delhi wirklich erleben möchte."',
   '"Eine eindrucksvolle und bereichernde Tour. Besonders schön war der respektvolle Austausch mit den Einheimischen – ein authentischer Einblick, der lange in Erinnerung bleibt."',
   '"Ein unglaublich aufschlussreicher Tour, der mir einen echten Einblick in das Leben der Slums gegeben hat. Besonders wertvoll war die Möglichkeit, mit den Einheimischen in Kontakt zu treten und ihre Geschichten zu hören. Es war eine authentische Erfahrung, die ich jedem empfehlen würde, der mehr über die wahre Seite der Stadt erfahren möchte."',
 ]);

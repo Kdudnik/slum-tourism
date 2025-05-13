@@ -14,7 +14,7 @@
         </div>
         <div class="js-intersect flex gap-36 justify-between">
           <div class="relative group">
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=4oPOc2e4ffU&pp=ygUMc2x1bSB0b3VyaXNt" target="_blank">
               <img
                 src="/video/video-1.png"
                 alt=""
@@ -29,7 +29,7 @@
             ></div>
           </div>
           <div class="relative group">
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=b5w3e3uYd5c&ab_channel=VICENews" target="_blank">
               <img
                 src="/video/video-2.png"
                 alt=""

@@ -37,7 +37,7 @@
           <li><span class="font-bold">Abholzeit: </span>8:00 morgens</li>
           <li>
             <span class="font-bold">Reiseleiter: </span>
-            <span>Amit Sharma</span>
+            <span>Amit Sharma, Arjun Mehra, Priya Sharma</span>
             <ol>
               <li class="flex gap-2 items-center">
                 <img src="/tours/checkmark.svg" alt="" class="w-3 h-3">

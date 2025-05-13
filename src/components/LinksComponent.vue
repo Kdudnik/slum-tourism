@@ -9,34 +9,40 @@
           YouTube-Videos und Artikeln über Slum-Tourismus am Seitenende.
         </div>
         <div class="basis-3/5 shrink-0 flex gap-8 justify-between">
-          <div class="flex flex-col gap-4">
+          <a
+            href="https://www.nationalgeographic.com/travel/article/history-controversy-debate-slum-tourism"
+            target="_blank"
+            class="flex flex-col gap-4 group"
+          >
             <div class="relative">
               <img src="/links/links-1.png" alt="" />
               <div
-                class="bg-brand-green w-full h-full rounded-4xl absolute -bottom-3 -left-3 -z-10"
+                class="bg-brand-green duration-300 w-full h-full rounded-4xl absolute -bottom-3 -left-3 -z-10 group-hover:bottom-0 group-hover:left-0"
               ></div>
             </div>
-            <a
-              href="https://www.nationalgeographic.com/travel/article/history-controversy-debate-slum-tourism"
-              target="_blank"
-              class="underline font-bold text-xl transition hover:text-brand-brown-light"
-              >National Geographic</a
+            <p
+              class="underline ml-2 font-bold text-xl transition group-hover:text-brand-brown-light"
             >
-          </div>
-          <div class="flex flex-col gap-4">
+              National Geographic
+            </p>
+          </a>
+          <a
+            href="https://www.nationalgeographic.com/travel/article/history-controversy-debate-slum-tourism"
+            target="_blank"
+            class="flex flex-col gap-4 group"
+          >
             <div class="relative">
               <img src="/links/links-2.png" alt="" />
               <div
-                class="bg-brand-green w-full h-full rounded-4xl absolute -bottom-3 -left-3 -z-10"
+                class="bg-brand-green duration-300 w-full h-full rounded-4xl absolute -bottom-3 -left-3 -z-10 group-hover:bottom-0 group-hover:left-0"
               ></div>
             </div>
-            <a
-              href="https://www.youtube.com/watch?v=PicvJrRjqKQ&ab_channel=UN-HABITATWORLDWIDE"
-              target="_blank"
-              class="underline font-bold text-xl transition hover:text-brand-brown-light"
-              >UN-HABITAT WORLDWIDE</a
+            <p
+              class="underline ml-2 font-bold text-xl transition group-hover:text-brand-brown-light"
             >
-          </div>
+              UN-HABITAT WORLDWIDE
+            </p>
+          </a>
         </div>
       </div>
     </container>
