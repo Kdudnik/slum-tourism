@@ -5,8 +5,6 @@ const { data } = defineProps({
     required: true,
   },
 });
-
-console.log(data);
 </script>
 
 <template>
@@ -15,16 +13,13 @@ console.log(data);
     :key="index"
     class="flex flex-col gap-6 text-xl font-medium"
   >
-    <div class="overflow-hidden rounded-4xl relative">
-      <img :src="item.img" alt="" class="hover:scale-110 duration-300" />
-    </div>
-    <div class="flex gap-1">
-      <a
-        :href="item.link"
-        target="_blank"
-        class="hover:text-brand-brown-light transition"
-        >{{ $t("gallery.photo") }} {{ item.text }}</a
-      >
-    </div>
+    <a :href="item.link" target="_blank" class="flex flex-col gap-8 group">
+      <div class="overflow-hidden rounded-4xl relative">
+        <img :src="item.img" alt="" class="group-hover:scale-110 duration-300" />
+      </div>
+      <div class="group-hover:text-brand-brown-light transition">
+        {{ $t("gallery.photo") }} {{ item.text }}
+      </div>
+    </a>
   </div>
 </template>

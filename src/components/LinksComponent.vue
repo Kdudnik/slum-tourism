@@ -27,7 +27,7 @@
             </p>
           </a>
           <a
-            href="https://www.nationalgeographic.com/travel/article/history-controversy-debate-slum-tourism"
+            href="https://youtu.be/PicvJrRjqKQ?si=6nMTcUe0r6q8N50E"
             target="_blank"
             class="flex flex-col gap-4 group"
           >

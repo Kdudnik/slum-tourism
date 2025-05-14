@@ -2,13 +2,15 @@
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
 
+
 const { locale, availableLocales } = useI18n();
 const listItems = ref([
-  { message: "Home", anchor: "#hero" },
-  { message: "Background Info", anchor: "#bgInfo" },
-  { message: "Our Tour", anchor: "#tour" },
-  { message: "Reviews", anchor: "#" },
+  { data: "home", anchor: "#hero" },
+  { data: "bgInfo", anchor: "#bgInfo" },
+  { data: "ourtour", anchor: "#tour" },
+  { data: "reviews", anchor: "#" },
 ]);
+console.log(locale)
 
 // Switch language
 
@@ -55,7 +57,7 @@ window.addEventListener("scroll", () => {
               <a
                 :href="item.anchor"
                 class="transition hover:text-brand-brown-light"
-                >{{ item.message }}</a
+                >{{ $t(`header.${item.data}`) }}</a
               >
             </li>
           </ul>

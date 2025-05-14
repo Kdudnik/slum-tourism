@@ -1,4 +1,10 @@
 {
+  "header": {
+    "home": "Homeseite",
+    "bgInfo": "Background Info",
+    "ourtour": "Unsere Tour",
+    "reviews": "Bewertungen"
+  },
   "hero": {
     "title": "Slum Tourismus",
     "text": "Wie sieht es aus?",

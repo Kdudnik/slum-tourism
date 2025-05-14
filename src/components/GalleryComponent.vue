@@ -4,8 +4,8 @@ import GalleryBlockComponent from './GalleryBlockComponent.vue';
 
 const galleryItems = ref([
   {
-    text: "Reality Tours and Travel",
-    link: "https://realitytoursandtravel.com/",
+    text: "iStock",
+    link: "https://www.istockphoto.com/",
     img: "/gallery/gallery-1.png"
   },
   {
